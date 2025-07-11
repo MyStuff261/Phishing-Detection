@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Testing Hugging Face</title>
+  </head>
+  <body>
+    <p>SENTIMENT DETECTOR</p>
+    <input placeholder="put in your text" class="js-text-input">
+    <button class="js-submit-button" onclick="
+      fetchAPI(document.querySelector('.js-text-input').value);
+    ">Submit</button>
+    <div class="js-text"></div>
+  </body>
+  <script src="websiteLogic.js">
+  </script>
+</html>
